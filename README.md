@@ -1,6 +1,6 @@
 # Siberseguran-a_Skodjidigital
 
-Laboratório — Sessão_1
+# Laboratório — Sessão_1
 
 <img width="1598" height="1002" alt="Tarefas" src="https://github.com/user-attachments/assets/944ecbeb-7393-42f9-bbca-a1536d5711a8" />
 
@@ -21,4 +21,4 @@ nmap -sV -sC 10.130.151.190
 
 
 
-Laboratório — Sessão 2
+# Laboratório — Sessão 2
