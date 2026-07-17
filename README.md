@@ -6,7 +6,7 @@
 
 
 
-ss -tuln
+## ss -tuln
 <img width="961" height="363" alt="nmap -sV -sC " src="https://github.com/user-attachments/assets/bedca684-1d13-4f45-9e5d-3752157733da" />
 
 
