@@ -61,3 +61,11 @@
 
 ---
 
+## log com CMD
+---
+
+<img width="911" height="1033" alt="image" src="https://github.com/user-attachments/assets/a673c408-466c-4727-b9fc-f1d8a13d1e8a" />
+
+---
+
+
