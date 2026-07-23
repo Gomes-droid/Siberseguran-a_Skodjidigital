@@ -126,6 +126,14 @@ sudo ufw status verbose e sudo iptables -L -v
 
 ---
 
+```bash
+ufw ativo
+```
+---
+
+<img width="935" height="834" alt="5_Captura de ecrã 2026-07-23 143516" src="https://github.com/user-attachments/assets/03842cb6-f4ed-4267-8553-30de82c95822" />
+
+---
 
 ## 5. Explicação da política aplicada
 
