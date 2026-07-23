@@ -2,10 +2,9 @@
 
 **Curso:** Reskilling — Skodji Digital
 **Módulo:** Linux e Cibersegurança
-**Objetivo de Aprendizagem:** OA3 · Aplicar
 **Formador:** Péricles Borges
-**Ambiente:** KillerCoda Ubuntu Playground / TryHackMe — Network Security Essentials
-**Data de execução:** `DD/MM/AAAA`
+**Ambiente:** KillerCoda Ubuntu Playground
+**Data de execução:** `23/07/2026`
 
 ---
 
