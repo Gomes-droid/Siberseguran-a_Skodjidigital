@@ -56,9 +56,12 @@ sudo ufw default allow outgoing
 
 **Output:**
 
-```text
-[COLAR AQUI O OUTPUT]
-```
+---
+
+<img width="945" height="256" alt="1_Captura de ecrã 2026-07-23 141005" src="https://github.com/user-attachments/assets/e13f0546-749b-4a8a-a4a6-361d0c73302f" />
+
+
+---
 
 ### 3.2. Exceção para acesso SSH
 
