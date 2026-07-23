@@ -127,30 +127,9 @@ sudo ufw status verbose e sudo iptables -L -v
 
 ---
 
-### 4.3. Capturas de ecrã
-
-| # | Descrição | Ficheiro |
-|---|---|---|
-| 1 | Estado do UFW após configuração | `capturas/ufw-status-verbose.png` |
-| 2 | Listagem iptables com contadores | `capturas/iptables-l-v.png` |
-
-<!-- Inserir as imagens com: ![Descrição](capturas/nome-do-ficheiro.png) -->
-
----
 
 ## 5. Explicação da política aplicada
 
-### O que está bloqueado
-
-_[Preencher com base no output obtido.]_
-
-- Todo o tráfego de entrada não explicitamente autorizado.
-- Tráfego proveniente do IP `203.0.113.50`, descartado sem resposta.
-
-### O que está permitido
-
-- Ligações SSH na porta `22/tcp`.
-- Todo o tráfego de saída originado no servidor.
 
 ### Fundamentação
 
@@ -160,8 +139,7 @@ que é necessário. Serviços novos, portas esquecidas ou vulnerabilidades ainda
 ficam automaticamente fechados, sem necessidade de enumeração.
 
 **Porquê permitir a saída.** O vetor de ataque relevante neste cenário é de fora para dentro.
-O servidor mantém necessidades legítimas de tráfego de saída (atualizações, resolução DNS,
-sincronização horária), pelo que a restrição de saída não se justifica neste âmbito.
+O servidor mantém necessidades legítimas de tráfego de saída, pelo que a restrição de saída não se justifica neste âmbito.
 
 **Porquê DROP e não REJECT.** O `DROP` não devolve qualquer resposta ao emissor, ao contrário
 do `REJECT`, que responde com uma mensagem ICMP. Em face pública, o silêncio reduz a
@@ -175,14 +153,8 @@ funcional.
 
 ---
 
-## 6. Dificuldades encontradas e resolução
 
-_[Preencher. Exemplos possíveis: diretoria `/etc/iptables` inexistente, resolvida com
-`sudo mkdir -p /etc/iptables`; expiração da sessão do ambiente de laboratório; etc.]_
-
----
-
-## 7. Conclusões e aprendizagens
+## 6. Conclusões e aprendizagens
 
 - **UFW e iptables não são alternativas concorrentes** — o UFW é uma camada de gestão
   simplificada que escreve regras iptables por trás. O subsistema que efetivamente filtra
@@ -193,14 +165,6 @@ _[Preencher. Exemplos possíveis: diretoria `/etc/iptables` inexistente, resolvi
   técnica indiferente.
 - **Regras não persistidas perdem-se no reinício** — a persistência é parte integrante da
   configuração, não um passo opcional.
-
----
-
-## 8. Ligação à Sessão 2
-
-A análise forense da sessão anterior identificou o IP responsável pelas tentativas de
-autenticação falhadas. O bloqueio aplicado neste laboratório representa a **resposta
-defensiva** a essa deteção: identificação da origem nos logs → contenção na firewall.
 
 ---
 
