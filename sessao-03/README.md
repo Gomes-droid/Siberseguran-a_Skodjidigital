@@ -33,8 +33,9 @@ sudo ufw status
 
 **Output:**
 
-```text
-<img width="1093" height="176" alt="image" src="https://github.com/user-attachments/assets/094a5d38-90b4-40f3-aaff-e6bd41fe6284" />
+```
+<img width="1093" height="176" alt="image" src="https://github.com/user-attachments/assets/e5592652-325d-4396-8b4a-23936480aa61" />
+
 
 ```
 
