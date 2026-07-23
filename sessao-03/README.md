@@ -33,11 +33,13 @@ sudo ufw status
 
 **Output:**
 
-```
-<img width="1093" height="176" alt="image" src="https://github.com/user-attachments/assets/e5592652-325d-4396-8b4a-23936480aa61" />
+---
+
+<img width="1093" height="176" alt="Captura de ecrã 2026-07-23 140825" src="https://github.com/user-attachments/assets/41d90c4b-ea1c-42e0-891c-c6dd8a694df2" />
 
 
-```
+
+---
 
 > **Observação:** _[Indicar se a firewall estava `inactive` ou `active`, e se existiam regras prévias.]_
 
